@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class Person {
+    - String name;
+    - String address;
+    Person(String name, String address)
+    + getName() : String 
+    void setName(String name)
+    String getAddress()
+    void setAddress(String address)
+    public String toString()
+}
+class Student extends Person {}
+
+
+@enduml
